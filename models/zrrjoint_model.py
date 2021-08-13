@@ -154,13 +154,13 @@ class LiteISPNet(nn.Module):
 		ch_2 = 128
 		ch_3 = 128
 		n_blocks = 4
-		self.LiteISPNet_coord = opt.LiteISPNet_coord
+		self.ispnet_coord = opt.ispnet_coord
 
 		self.head = N.seq(
 			N.conv(4, ch_1, mode='C')
 		)  # h (N, ch_1, H/2, W/2)
 
-		if self.LiteISPNet_coord:
+		if self.ispnet_coord:
 			self.pre_coord = PreCoord(pre_train=True)
 			self.down1 = N.seq(
 				N.conv(ch_1+2, ch_1+2, mode='C'),
@@ -221,7 +221,7 @@ class LiteISPNet(nn.Module):
 	def forward(self, raw, coord=None):
 		input = raw
 		h = self.head(input)
-		if self.LiteISPNet_coord:
+		if self.ispnet_coord:
 			pre_coord = self.pre_coord(raw) * 0.1
 			pre_coord = torch.clamp(pre_coord, -1, 1)
 			pre_coord = pre_coord.unsqueeze(dim=2).unsqueeze(dim=3)

@@ -20,6 +20,7 @@ try:
 except:
 	sys.path.insert(0, '../pwc/correlation'); import correlation # you should consider upgrading python
 
+# Optical flow network (PWC-Net)
 
 class PWCNET(torch.nn.Module):
 	def __init__(self):
