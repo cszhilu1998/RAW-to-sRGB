@@ -44,7 +44,7 @@ We show some exemplar commands here for better introduction.
 
 ### 3.2 Testing
 
-The pre-trained models will be released soon.
+- The pre-trained models will be released soon.
 
 - Zurich RAW to RGB dataset
 
