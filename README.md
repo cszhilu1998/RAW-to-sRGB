@@ -1,6 +1,6 @@
 # Learning RAW-to-sRGB Mappings with Inaccurately Aligned Supervision (ICCV 2021)
 
-PyTorch implementation of **Learning RAW-to-sRGB Mappings with Inaccurately Aligned Supervision**
+PyTorch implementation of [Learning RAW-to-sRGB Mappings with Inaccurately Aligned Supervision](http://arxiv.org/abs/2108.08119)
 
 ## 1. Framework
 
