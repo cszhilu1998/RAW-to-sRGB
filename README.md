@@ -14,11 +14,11 @@ PyTorch implementation of [Learning RAW-to-sRGB Mappings with Inaccurately Align
 
 ## 3. Preparation
 
-- **3.1 Prerequisites**
+- **Prerequisites**
     - PyTorch (v1.6)
     - Python 3.x, with OpenCV, Numpy, CuPy, Pillow and tqdm, and tensorboardX is used for visualization
 
-- **3.2 Dataset**
+- **Dataset**
         - [Zurich RAW to RGB dataset](https://docs.google.com/forms/d/e/1FAIpQLSdH6Pqdlu0pk2vGZlazqoRYwWsxN3nsLFwYY6Zc5-RUjw3SdQ/viewform) and [SR-RAW Dataset](https://drive.google.com/drive/folders/1UHKEUp77tiCZ9y05JtP6S9Tfo2RftK8m) are used for experiments.
        
 ## 4. Quick Start
