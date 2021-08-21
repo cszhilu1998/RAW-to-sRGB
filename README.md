@@ -69,7 +69,7 @@ If you find it useful in your research, please consider citing:
 
     @inproceedings{RAW-to-sRGB,
         title={Learning RAW-to-sRGB Mappings with Inaccurately Aligned Supervision},
-        author={Zhang, Zhilu and Wang, Haolin and Liu, Ming and Wang, Ruohao and Zuo, Wangmeng and Zhang, Jiawei},
+        author={Zhang, Zhilu and Wang, Haolin and Liu, Ming and Wang, Ruohao and Zhang, Jiawei and Zuo, Wangmeng},
         booktitle={ICCV},
         year={2021}
     }
