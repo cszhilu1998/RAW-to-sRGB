@@ -1,6 +1,10 @@
 # RAW-to-sRGB (ICCV 2021)
 
+<<<<<<< HEAD
 PyTorch implementation of [**Learning RAW-to-sRGB Mappings with Inaccurately Aligned Supervision**](https://arxiv.org/abs/2108.08119) 
+=======
+PyTorch implementation of [Learning RAW-to-sRGB Mappings with Inaccurately Aligned Supervision](http://arxiv.org/abs/2108.08119)
+>>>>>>> 0c6211b29e8fd938a18262466f6c6fb4cb1b0080
 
 ## 1. Framework
 
@@ -15,12 +19,20 @@ PyTorch implementation of [**Learning RAW-to-sRGB Mappings with Inaccurately Ali
 ## 3. Preparation
 
 - **Prerequisites**
+<<<<<<< HEAD
     - Python 3.x and PyTorch 1.6.
     - OpenCV, NumPy, Pillow, CuPy, colour_demosaicing, tqdm, lpips, scikit-image and tensorboardX.
 
 - **Dataset**
     - [Zurich RAW to RGB dataset](https://docs.google.com/forms/d/e/1FAIpQLSdH6Pqdlu0pk2vGZlazqoRYwWsxN3nsLFwYY6Zc5-RUjw3SdQ/viewform).
     - [Preprocessed SR-RAW Dataset](https://drive.google.com/drive/folders/1hpLG1ksFV_76ZNrUg9XGvSotMvX9tV_Z?usp=sharing). Note that here we preprocessed the original SR-RAW dataset according to the [code](https://github.com/ceciliavision/zoom-learn-zoom/blob/master/demo_rawrgb_pair.ipynb). You can also download the original SR-RAW dataset [here](https://drive.google.com/drive/folders/1UHKEUp77tiCZ9y05JtP6S9Tfo2RftK8m).
+=======
+    - PyTorch (v1.6)
+    - Python 3.x, with OpenCV, Numpy, CuPy, Pillow and tqdm, and tensorboardX is used for visualization
+
+- **Dataset**
+        - [Zurich RAW to RGB dataset](https://docs.google.com/forms/d/e/1FAIpQLSdH6Pqdlu0pk2vGZlazqoRYwWsxN3nsLFwYY6Zc5-RUjw3SdQ/viewform) and [SR-RAW Dataset](https://drive.google.com/drive/folders/1UHKEUp77tiCZ9y05JtP6S9Tfo2RftK8m) are used for experiments.
+>>>>>>> 0c6211b29e8fd938a18262466f6c6fb4cb1b0080
        
 ## 4. Quick Start
 
@@ -59,7 +71,7 @@ If you find it useful in your research, please consider citing:
 
     @inproceedings{RAW-to-sRGB,
         title={Learning RAW-to-sRGB Mappings with Inaccurately Aligned Supervision},
-        author={Zhang, Zhilu and Wang, Haolin and Liu, Ming and Wang, Ruohao and Zuo, Wangmeng and Zhang, Jiawei},
+        author={Zhang, Zhilu and Wang, Haolin and Liu, Ming and Wang, Ruohao and Zhang, Jiawei and Zuo, Wangmeng},
         booktitle={ICCV},
         year={2021}
     }
