@@ -29,7 +29,7 @@ class ZRRDataset(BaseDataset):
 			self.raw_dir = os.path.join(self.root, 'train', 'huawei_raw')
 			self.dslr_dir = os.path.join(self.root, 'train', 'canon')
 			self.names = ['%s'%i for i in range(0, 46839)]  # 46839
-			self._getitem = self._getitem_trains
+			self._getitem = self._getitem_train
 
 		elif split == 'val':
 			self.raw_dir = os.path.join(self.root, 'test', 'huawei_raw')
